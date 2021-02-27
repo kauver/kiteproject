@@ -3,7 +3,7 @@ const request = require('superagent');
  module.exports = (app) => {
     app.post('/api/stock/portfolio', function (req, res, next) {
     const apiKey='3KYYJ04S8PXDYJ9O.1..5'
-    const symbols = ['MSFT'];
+    const symbols = ['IBM'];
     let completed =0;
     const results =[];
     console.log('ok');

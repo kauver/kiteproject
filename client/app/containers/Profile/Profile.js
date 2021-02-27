@@ -50,7 +50,7 @@ class Profile extends Component {
         if(isLoading){
             return(
                 <div>
-                    <p>Loading...</p>
+                    <p>Please Wait</p>
                 </div>);
         }
         if(error){
